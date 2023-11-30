@@ -31,7 +31,7 @@ async function authenticateAndAuthorize(req, res, next) {
     }
 
     try {
-        const secret = AISUGFBbfUIGVUTfcITCuitcIUvKUGJViutfgVIU
+        const secret = 'AISUGFBbfUIGVUTfcITCuitcIUvKUGJViutfgVIU'
         const decoded = jwt.verify(token, secret)
 
         const user = await User.findById(decoded.id)

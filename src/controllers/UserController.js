@@ -65,7 +65,7 @@ const loginUser = async (req, res) => {
         if (!passwordCorrect) {
             return res.status(400).json({ message: 'Senha incorreta!' })
         }
-        const secret = AISUGFBbfUIGVUTfcITCuitcIUvKUGJViutfgVIU
+        const secret = 'AISUGFBbfUIGVUTfcITCuitcIUvKUGJViutfgVIU'
         const token = await jwt.sign({ id: user._id }, secret)
 
         return res.status(200).json({ message: 'Logado!', id: user._id, token })
