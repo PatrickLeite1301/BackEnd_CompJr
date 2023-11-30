@@ -1,4 +1,6 @@
-# BackEnd_CompJr
+# Desafio BackEnd CompJunior
+
+##Visão Geral:
 BackEnd CompJr em NodeJs, MongoDB e Express.
 
 
@@ -11,3 +13,19 @@ Insomnia foi minha ferramenta de teste de requisições para este projeto
 Pela questão de relacionamentos e requisitos do desafio optei pelas seguintes tecnologias:
 -MongoDB
 -Node.js
+
+/usr - rotas de usuário sem permissão de admin, apenas token
+/adm - rotas para permissão de admin
+
+##Rotas de requisição:
+post - http://localhost:3000/adm/item/add
+get - http://localhost:3000/usr/item/all
+get - http://localhost:3000/usr/item/:id
+patch - http://localhost:3000/adm/item/:id
+del - http://localhost:3000/adm/item/:id
+post - http://localhost:3000/usr/register
+post - http://localhost:3000/usr/login
+get - http://localhost:3000/usr/all
+get - http://localhost:3000/usr/:id
+patch - http://localhost:3000/adm/:id
+del - http://localhost:3000/adm/delete/:id
