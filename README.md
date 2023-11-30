@@ -17,7 +17,7 @@ Pela questão de relacionamentos e requisitos do desafio optei pelas seguintes t
 /usr - rotas de usuário sem permissão de admin, apenas token
 /adm - rotas para permissão de admin
 
-##Rotas de requisição:
+##Rotas de requisição: <br>
 post - http://localhost:3000/adm/item/add <br>
 get - http://localhost:3000/usr/item/all <br>
 get - http://localhost:3000/usr/item/:id <br>
