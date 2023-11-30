@@ -18,14 +18,14 @@ Pela questão de relacionamentos e requisitos do desafio optei pelas seguintes t
 /adm - rotas para permissão de admin
 
 ##Rotas de requisição:
-post - http://localhost:3000/adm/item/add
-get - http://localhost:3000/usr/item/all
-get - http://localhost:3000/usr/item/:id
-patch - http://localhost:3000/adm/item/:id
-del - http://localhost:3000/adm/item/:id
-post - http://localhost:3000/usr/register
-post - http://localhost:3000/usr/login
-get - http://localhost:3000/usr/all
-get - http://localhost:3000/usr/:id
-patch - http://localhost:3000/adm/:id
+post - http://localhost:3000/adm/item/add <br>
+get - http://localhost:3000/usr/item/all <br>
+get - http://localhost:3000/usr/item/:id <br>
+patch - http://localhost:3000/adm/item/:id <br>
+del - http://localhost:3000/adm/item/:id <br>
+post - http://localhost:3000/usr/register <br>
+post - http://localhost:3000/usr/login <br>
+get - http://localhost:3000/usr/all <br>
+get - http://localhost:3000/usr/:id <br>
+patch - http://localhost:3000/adm/:id <br>
 del - http://localhost:3000/adm/delete/:id
